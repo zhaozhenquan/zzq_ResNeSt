@@ -9,7 +9,8 @@ from tqdm import tqdm
 import subprocess
 from resnest.utils import check_sha1, download, mkdir
 
-_TARGET_DIR = os.path.expanduser('~/.encoding/data/ILSVRC2012')
+ILSVRC2012Path = "D:/ImageNet/.encoding/data/ILSVRC2012"
+_TARGET_DIR = "D:/ImageNet/.encoding/data/ILSVRC2012"
 _TRAIN_TAR = 'ILSVRC2012_img_train.tar'
 _TRAIN_TAR_SHA1 = '43eda4fe35c1705d6606a6a7a633bc965d194284'
 _VAL_TAR = 'ILSVRC2012_img_val.tar'
